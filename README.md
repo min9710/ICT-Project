@@ -4,12 +4,12 @@
 등산로 주변에서 야생동물 등장 시 퇴치하는 시스템 및 어플리케이션을 통해 사용자에게 알리고 관련 정보를 저장하고 분석하는 시스템 제작
 
 ## 기능 구현
-1) **TCP/IP Socket Programming 및 Linux 기반 Server/Client 개발**
+**1) TCP/IP Socket Programming 및 Linux 기반 Server/Client 개발**
 
 - TCP/IP 소켓 통신을 이용하여 Server와 Client 간의 데이터 통신 기능을 개발하였습니다.
 - 멀티스레드를 활용하여 다중 접속 서버를 구현하였습니다.
 
-2) **Jetson Nano**
+**2) Jetson Nano**
 
 - Jetson Nano를 활용해 모델 데이터를 학습시키고, 카메라를 연결해 객체 감지를 하였습니다.
 - DB와 연동해 객체 감지 시 객체 수, 카메라 ID, 시간과 위치정보를 전송합니다.
